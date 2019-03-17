@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    margin-bottom: 100px;
+}
+.box{
+    width: 100px;
+    display: inline-flex;
+    margin: 0 50px;
+}
+.box-on{
+    width: 50px;
+    height: 50px;
+    background: #00b159;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+.box-on:hover{
+    width: 50px;
+    height: 50px;
+    background: #008f54;
+    cursor: not-allowed; 
+}
+.box-off{
+    width: 50px;
+    height: 50px;
+    background: #fb4f54;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+.box-off:hover{
+    width: 50px;
+    height: 50px;
+    background: red;
+    cursor: not-allowed;
+}
+.check-box{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
