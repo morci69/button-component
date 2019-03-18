@@ -1,7 +1,6 @@
 var btn = document.getElementsByTagName('on-off');
 
 for (let i = 0; i < btn.length; i++) {
-    var caca = btn[i].className;
 
     this.buttonHtml = `
         <div class="box">
