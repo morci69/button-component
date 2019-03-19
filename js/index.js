@@ -1,5 +1,5 @@
-var button1 = document.getElementById('checkName1');
-var button2 = document.getElementById('checkName2');
+var button1 = document.getElementById('onName');
+var button2 = document.getElementById('offName');
 
 button1.addEventListener('click', function (event) {
     event.defaultPrevented;
